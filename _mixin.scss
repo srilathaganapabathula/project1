@@ -1,0 +1,26 @@
+@mixin paly-button {
+    .play {
+      background-color: #000;
+      border: 0px;
+      color: #fff !important;
+      display: flex;
+      border-radius: 6px;
+      padding: 3px 10px;
+      height: 40px;
+      align-items: center;
+      text-decoration: none;
+      img {
+        width: 23px;
+        margin-right: 10px;
+      }
+      .text {
+        text-align: left;
+        font-size: 12px;
+        span {
+          display: block;
+          font-size: 9px;
+          font-weight: 300;
+        }
+      }
+    }
+}
